@@ -13,7 +13,7 @@ void TestClock()
     
     typename clock::time_point now;
     typename clock::time_point last;
-    typename clock::duration actual_duration;
+    typename std::chrono::nanoseconds actual_duration;
     std::uint64_t iterations = 0;
     std::uint64_t distinct_values = 0;
     do 
