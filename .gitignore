@@ -1,2 +1,6 @@
 chrono-bench
-.vscode
+.vscode/
+*.filters
+*.user
+x64/
+.vs/
